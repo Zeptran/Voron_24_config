@@ -3,9 +3,9 @@
 # Port from moonraker
 port="7125"
 # Your telegram bot token
-token="AAHvlN4v3IRdH_TlsmnpYP4t20waKBFuQqs"
+token="AAHvlN4v3IRdH_Tl434pYP4t20waKBFuQqs"
 # Your chat ID
-chatid="2009405147"
+chatid="2078905147"
 #
 #Your moonraker API-Key when u use force login true
 api_key=""
