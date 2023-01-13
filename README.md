@@ -1,6 +1,7 @@
 # Voron Klipper Backup
-This is my Voron Config Backup for my V2.4
+This is my Voron config backup for my V2.4
 
+Discord: Zeptron#8880
 Voron 2.4 300mm v2.2145
 
 # Failures
@@ -13,10 +14,17 @@ While using the wrong kind of activated charcoal this happened to my printer. I 
 
 # Features
 - [Git backup](https://github.com/th33xitus/kiauh/wiki/How-to-autocommit-config-changes-to-github%3F) - using [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) authentication
-- [Nozzle Scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber)
 - [Resonance testing with image processing](https://www.klipper3d.org/Measuring_Resonances.html) - pushing to [github](resonances) to view them is pretty easy (Thanks richardjm for the Inspiration)
 - [ERCF](https://github.com/EtteGit/EnragedRabbitProject) - Using ERCF EASY BRD
 - [ERCF-Software-V3 "Happy Hare"](https://github.com/moggieuk/ERCF-Software-V3)
+
+# Mods
+- [Nevermore activated carbon filter](https://github.com/nevermore3d/Nevermore_Micro)
+- [Ramalama front idlers](https://github.com/Ramalama2/Voron-2-Mods/tree/main/Front_Idlers)
+- [hartk pins mod](https://github.com/hartk1213/MISC/tree/main/Voron%20Mods/Voron%202/2.4/Voron2.4_Trident_Pins_Mod)
+- [Nozzle Scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber)
+- [270° front door hinges]( https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/chrisrgonzales/270_degree_hinge)
+- [Sturdy handels](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/jeoje/Sturdy_Handles)
 
 # Other klipper backups I've found useful
 - [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)
@@ -36,7 +44,7 @@ While using the wrong kind of activated charcoal this happened to my printer. I 
 
 ![Klipper-ERCF-Board](https://user-images.githubusercontent.com/21012208/212410223-20fda1a1-e04c-4a59-8771-8a131c3082a4.png)
 
-To Flash the board use tweezers to short the RST Pin on the controller two times. (Blinking pattern should change)
+To flash the board use tweezers to short the RST pin on the controller two times. (Blinking pattern should change)
 ``` 
 sudo service klipper stop
 make clean 
@@ -45,11 +53,11 @@ sudo /usr/local/bin/bossac -i -d -p /dev/ttyACM2 -e -w -v -R --offset=0x2000 out
 sudo service klipper start
 ```
 
-All other Boards with the auto MCU Update through Mainsail
+All other boards with the auto MCU update through mainsail
 
 # Changes
 - 13.01.2023 
-  - Switch from Stock ERCF Software to ERCF-Software-V3 "Happy Hare"  [https://github.com/moggieuk/ERCF-Software-V3](https://github.com/moggieuk/ERCF-Software-V3)
-  - Creation of Config Backup Macro
-  - Setup and Calibration of "Happy Hare"
-  - Integration of Automatic Input Shaper Pictures to Github
+  - Switch from stock ERCF software to ERCF-Software-V3 "Happy Hare"  [https://github.com/moggieuk/ERCF-Software-V3](https://github.com/moggieuk/ERCF-Software-V3)
+  - Creation of config backup macro
+  - Setup and calibration of "Happy Hare"
+  - Integration of automatic input shaper pictures to Github
