@@ -25,7 +25,7 @@ Voron 2.4 300mm v2.2145
 
 # Make menuconfigs
 
-##Klipper - ERCF Board
+## Klipper - ERCF Board
 
 ![Klipper-ERCF-Board](https://user-images.githubusercontent.com/21012208/212410223-20fda1a1-e04c-4a59-8771-8a131c3082a4.png)
 
